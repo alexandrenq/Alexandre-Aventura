@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <header>Descoberta da Cidade Encantada</header>
+            <img src="img/cartas velhas.jpg" alt="Inicio da Jornada">
+            <p>Em um dia chuvoso, enquanto explorava o sótão da casa de um amigo, encontrei uma velha caixa cheia de cartas e um diário antigo. Entre os documentos, havia uma carta descrevendo uma cidade encantada, escondida entre montanhas e florestas. Decidi seguir as pistas para encontrá-la!</p>
+            <button class="btn-proximo" data-proximo="1">Lisboa</button>
+            <button class="btn-proximo" data-proximo="2">Madrid</button>
+        </div>
+    
+        <div class="passo" id="passo-1">
+            <img src="img/lisboa.jpg" alt="Chegada em Lisboa">
+            <p>Você começa sua jornada em Lisboa, subindo a trilha do Castelo de São Jorge, ao amanhecer para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Buscar a pista no Castelo de São Jorge</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+    
+        <div class="passo" id="passo-2">
+            <img src="img/madrid.jpg" alt="Em Madrid">
+            <p>Em Madrid, você explora a cidade vibrante. A carta menciona que para encontrar a entrada da cidade perdida, você deve procurar a pista em um dos pontos turísticos locais. Qual você escolhe?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar o Parque do Retiro</button>
+            <button class="btn-proximo" data-proximo="6">Explorar o Palácio Real</button>
+        </div>
+    
+        <div class="passo" id="passo-3">
+            <img src="img/castelo.jpg" alt="Chegando no Castelo de São Jorge">
+            <p>Ao chegar no Castelo de São Jorge, você encontra uma placa antiga que indica que a próxima pista está localizada na estrada EL-202, perto da Plaza Mayor.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a Estrada</button>
+        </div>
+    
+        <div class="passo" id="passo-4">
+            <img src="img/casa.png" alt="O retorno para casa">
+            <p>Você decide que a aventura é arriscada demais e volta para casa, retomando sua rotina, mas sempre se perguntando o que teria descoberto.</p>
+        </div>
+    
+        <div class="passo" id="passo-5">
+            <img src="img/parque.jpg" alt="No Parque do Retiro">
+            <p>No Parque do Retiro, você encontra um pergaminho antigo escondido entre as árvores, indicando que a próxima pista está na estrada EL-202, perto da Plaza Mayor.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a Estrada</button>
+        </div>
+    
+        <div class="passo" id="passo-6">
+            <img src="img/palacio-real.png" alt="No Palácio Real">
+            <p>Explorando o Palácio Real, você encontra uma caverna misteriosa, mas ela leva a um túnel sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar o Parque do Retiro</button>
+        </div>
+    
+        <div class="passo" id="passo-7">
+            <img src="img/placa.jpg" alt="Escolha Difícil">
+            <p>Na estrada EL-202, você encontra uma bifurcação. O caminho à frente parece promissor, com inscrições antigas visíveis ao longe. O outro caminho à esquerda é mais sinuoso. Qual você escolherá?</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo caminho à frente</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo caminho à esquerda</button>
+        </div>
+    
+        <div class="passo" id="passo-8">
+            <img src="img/parque-retiro.png" alt="No Parque do Retiro">
+            <p>De volta ao Parque do Retiro, você encontra o pergaminho antigo novamente. Agora, para a estrada!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a Estrada</button>
+        </div>
+    
+        <div class="passo" id="passo-9">
+            <img src="img/cidade encantada.jpg" alt="Entrada da Cidade Encantada">
+            <p>O caminho à frente leva você a uma bela estrada com inscrições antigas que revelam a entrada da cidade encantada.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade encantada</button>
+        </div>
+    
+        <div class="passo" id="passo-10">
+            <img src="img/estrada-pedras.jpg" alt="Estrada de Pedras">
+            <p>O caminho à esquerda segue por uma estrada cheia de pedras. Apesar das vistas impressionantes, não há sinais da cidade encantada aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho</button>
+        </div>
+    
+        <div class="passo" id="passo-11">
+            <img src="img/encantada.jpg" alt="Chegada na Cidade Encantada">
+            <p>Dentro da cidade encantada, você descobre maravilhas e segredos antigos. Decide dedicar sua vida a estudar e proteger esse lugar mágico.</p>
+        </div>
+    
+        <div class="passo" id="passo-12">
+            <img src="img/bifurcacao.png" alt="Início da Jornada">
+            <p>Retornando e escolhendo o caminho à frente, você finalmente encontra a bela estrada escondida e as inscrições que levam à cidade encantada.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade encantada</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
